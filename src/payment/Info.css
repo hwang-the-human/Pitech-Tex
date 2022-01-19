@@ -1,0 +1,68 @@
+.info {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 0px;
+  width: 300px;
+  background-color: white;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  align-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: translateX(-100%);
+
+  animation: 1s 0s 1 translateXAnimation forwards;
+  animation-delay: 1s;
+}
+
+@keyframes translateXAnimation {
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.info__titleBox {
+  display: flex;
+  margin: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info__title {
+  font-size: 32px;
+  font-family: TradeGothicforNike365-BdCn, Helvetica;
+}
+
+.info__subTitle {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.info__summaryBox {
+  padding-bottom: 30px;
+  margin: 15px;
+  border-bottom: 0.1px solid rgb(177, 177, 177);
+}
+
+.info__summaryBox--border {
+  border-bottom: 0px;
+}
+
+.info__textBox {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6px;
+}
+
+.info__textBox--margin {
+  margin-top: 15px;
+}
+
+.info__totalText {
+  font-family: TradeGothicforNike365-BdCn, Helvetica;
+  font-size: 20px;
+}
+
+.info__totalText-red {
+  color: #e31b23;
+}

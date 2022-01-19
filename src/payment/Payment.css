@@ -1,0 +1,68 @@
+.payment {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment__paymentBox {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+
+  opacity: 0;
+  animation: 1s 0s 1 fadeIn forwards;
+  animation-delay: 1s;
+}
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
+
+.payment__title {
+  margin: 15px;
+  font-size: 32px;
+  font-family: TradeGothicforNike365-BdCn, Helvetica;
+}
+
+.payment__textInput {
+  border: 1px solid #000;
+  font-size: 16px;
+  margin: 15px;
+  width: 300px;
+  height: 40px;
+  border-radius: 4px;
+  padding-left: 6px;
+}
+
+.payment__textInput--small {
+  width: 130px;
+}
+
+.payment__textInputBox {
+}
+
+.payment__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  width: 300px;
+  height: 40px;
+  margin: 15px;
+
+  border-radius: 4px;
+  font-family: TradeGothicforNike365-BdCn, Helvetica;
+  font-size: 16px;
+}

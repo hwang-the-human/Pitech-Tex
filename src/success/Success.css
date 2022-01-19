@@ -1,0 +1,41 @@
+.success {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.success__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  animation: 1s 0s 1 fadeIn forwards;
+  animation-delay: 1s;
+}
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
+
+.success__image {
+  border-radius: 4px;
+  width: 200px;
+  height: 200px;
+  margin-right: 15px;
+}
+
+.success__title {
+  font-size: 50px;
+  font-family: TradeGothicforNike365-BdCn, Helvetica;
+}
+
+.success__subTitle {
+  font-size: 18px;
+  font-family: TradeGothicforNike365-BdCn, Helvetica;
+}

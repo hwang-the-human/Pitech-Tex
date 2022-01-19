@@ -1,0 +1,25 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.item__image {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+}
+
+.item__infoBox {
+}
+
+.item__title {
+  margin-bottom: 15px;
+}
+
+.item__text {
+  color: grey;
+  margin-bottom: 6px;
+}

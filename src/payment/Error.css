@@ -1,0 +1,9 @@
+.error {
+  width: 300px;
+}
+
+.error__text {
+  color: #e31b23;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
